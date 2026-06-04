@@ -1,3 +1,5 @@
+#!/usr/bin/env bash
+
 function player_icon {
     local player
     player=$(playerctl metadata --format '{{ playerName }}' 2>/dev/null)
